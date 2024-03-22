@@ -1,0 +1,34 @@
+{
+  "name": "itaquesint",
+  "version": "1.0.0",
+  "description": "Expose GC at runtime without access to command node flags in command line for TS apps",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "yarn run build && yarn pack"
+  },
+  "keywords": [
+    "expose",
+    "dolorem",
+    "repellat",
+    "expose-gc",
+    "nihil",
+    "typescript",
+    "ts"
+  ],
+  "author": "MelvinRenner",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MilesTreutel/itaquesint.git"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.3",
+    "typescript": "^4.8.4"
+  },
+  "bugs": {
+    "url": "https://github.com/MilesTreutel/itaquesint.git/issues"
+  },
+  "homepage": "https://github.com/MilesTreutel/itaquesint.git"
+}
